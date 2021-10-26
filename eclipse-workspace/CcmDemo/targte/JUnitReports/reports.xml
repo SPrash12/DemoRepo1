@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.208">
+    <testcase classname="Test Swag Lab smoke scenario" name="Test login with valid credentials" time="0.078">
+        <system-out>
+            <![CDATA[Given Open the chrome and start the application.............................passed
+When Enter Valid user name and valid password...............................passed
+Then user should be able to login successfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,77 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-18T07:35:42.822Z",
+        "line": 8,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-swag-lab-smoke-scenario;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open the chrome and start the application",
+            "match": {
+              "location": "com.app.steps.loginSteps.open_the_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Valid user name and valid password",
+            "match": {
+              "location": "com.app.steps.loginSteps.enter_username_pass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "com.app.steps.loginSteps.use_should_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeFeature"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Test Swag Lab smoke scenario",
+    "description": "",
+    "id": "test-swag-lab-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Test.feature",
+    "tags": [
+      {
+        "name": "@SmokeFeature",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
